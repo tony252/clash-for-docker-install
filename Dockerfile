@@ -1,4 +1,4 @@
-FROM alpine:3.18
+FROM library/alpine:3.19
 
 # 设置代理环境变量（构建时使用）
 ARG http_proxy
